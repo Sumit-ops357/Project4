@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: sticky;
+}
+
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sub2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 7, 150);
+    padding: 10px;
+    gap: 800px;
+}
+
+.sub1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sub2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    gap: 20px;
+
+    list-style-type: none; /* Removes bullet points */
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.hero_section{
+    background-image: url(images/hero_image\ \(1\).png);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+
+    height: 100vh;
+
+}
+
+.hero_section .hero_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero_section h1{
+    font-size: 80px;
+}
+
+button{
+    padding: 10px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.music_section{
+    background: rgb(32, 8, 139);
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+    height: 100vh;
+}
+
+.music_section .music_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.mac_section{
+
+    margin-top: 250px;
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+
+    height: 100vh;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.mac_section .mac_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.video_section{
+
+    margin-top: 100px;
+
+    background-image: url(images/video.png);
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 700px;
+}
+
+.video_section .video_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gift_card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gift_section .gift_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+    background: whitesmoke;
+    gap: 20px;
+}
+
+.sub2 ,ul, a{
+  color: white;
+}
+
+.foot{
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgb(4, 4, 95);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
